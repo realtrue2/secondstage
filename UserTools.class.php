@@ -6,10 +6,7 @@ require_once 'Database.class.php';
 
 class UserTools {
 
-//Log the user in. First checks to see if the
-//username and password match a row in the database.
-//If it is successful, set the session variables
-//and store the user object within.
+
 public function login($username,$password,$link)
 
     {
