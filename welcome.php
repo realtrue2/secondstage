@@ -5,7 +5,7 @@
     if(!isset($_SESSION['logged_in'])) {
                     header("Location: login.php");
                     }
-                //взять объект user из сессии
+               
              
                     $user = unserialize($_SESSION['user']);
 
